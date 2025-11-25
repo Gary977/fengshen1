@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\\u5C01\u795E\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|c:\\users\\user\\\u5C01\u795E\\assets\\scripts\\battlehud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlehud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\cardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\cardinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\combatantholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatantholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\handcurvelayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handcurvelayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\ghostcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ghostcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\combatant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|C:\\Users\\user\\\u5C01\u795E\\assets\\scripts\\carddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64A77E3-47BE-E1BE-D341-4040CB283DD3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardHover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CardHover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardUI.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardUI.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:20:30.861Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GhostCard.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\GhostCard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GhostCard.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\GhostCard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GhostCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:21:03.762Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HandManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\HandManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HandManager.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\HandManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HandManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:19:41.059Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CardInstance.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardInstance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardInstance.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardInstance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardInstance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:21:14.092Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BattleHUD.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\BattleHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleHUD.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\BattleHUD.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleHUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T08:13:31.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HandCurveLayout.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\HandCurveLayout.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HandCurveLayout.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\HandCurveLayout.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HandCurveLayout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:49:21.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CardHover.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardHover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardHover.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardHover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardHover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:46:30.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T00:59:51.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Combatant.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\Combatant.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combatant.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\Combatant.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combatant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T00:52:47.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CombatantHolder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CombatantHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatantHolder.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CombatantHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatantHolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T00:53:05.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CardDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardDefinition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardDefinition.cs",
+              "ToolTip": "C:\\Users\\user\\\u5C01\u795E\\Assets\\Scripts\\CardDefinition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T00:36:47.047Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
