@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\fengshen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\carddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|c:\\users\\user\\fengshen\\assets\\scripts\\cardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\cardtooltip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardtooltip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\handcurvelayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handcurvelayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\battlehud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlehud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\dropzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dropzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\cardresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\combatant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\elementenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elementenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\cardinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|C:\\Users\\user\\fengshen\\assets\\scripts\\combatantholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4643E51F-4D62-4E3B-BE14-295A00F77038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatantholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CardResolver.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardResolver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardResolver.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardResolver.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardResolver.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwJkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T07:38:09.592Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardToolTip.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardToolTip.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardToolTip.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardToolTip.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardToolTip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T10:04:29.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HandCurveLayout.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\HandCurveLayout.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HandCurveLayout.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\HandCurveLayout.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HandCurveLayout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T09:34:27.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardUI.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardUI.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardUI.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv1oAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T09:00:29.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAzwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:51:18.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DropZone.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\DropZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DropZone.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\DropZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DropZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:45:26.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CardInstance.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardInstance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardInstance.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardInstance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardInstance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:36:07.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HandManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\HandManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HandManager.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\HandManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HandManager.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwFoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:32:48.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ElementEnums.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\ElementEnums.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ElementEnums.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\ElementEnums.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ElementEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:19:20.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardDefinition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardDefinition.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CardDefinition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T07:50:31.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Combatant.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\Combatant.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combatant.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\Combatant.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combatant.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T07:41:48.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CombatantHolder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CombatantHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatantHolder.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\CombatantHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatantHolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T07:41:43.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BattleHUD.cs",
+              "DocumentMoniker": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\BattleHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleHUD.cs",
+              "ToolTip": "C:\\Users\\user\\fengshen\\Assets\\Scripts\\BattleHUD.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleHUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T07:30:38.39Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

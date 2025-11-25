@@ -3,11 +3,18 @@ using System.Collections.Generic;
 
 public class HandCurveLayout : MonoBehaviour
 {
-    public float Radius = 800f;
-    public float AngleSpread = 30f;
-    public float VerticalOffset = -60f;
+    [Header("核心设置")]
+    public float VerticalOffset = -500f; // 无论半径怎么变，中间那张牌就在这个高度
 
-    // 外部调用重新排版
+    [Header("动态半径设置 (解决沉底问题)")]
+    public float MinRadius = 1000f;      // 卡牌少时的半径 (弯曲)
+    public float MaxRadius = 5000f;      // 卡牌多时的半径 (平缓)
+    public int MaxCardCountForRadius = 10; // 当达到几张牌时，半径变为最大值
+
+    [Header("角度设置")]
+    public float BaseAngleSpread = 5f;
+    public float MaxTotalAngle = 100f;
+
     public void RefreshLayout()
     {
         ApplyLayout();
@@ -15,44 +22,61 @@ public class HandCurveLayout : MonoBehaviour
 
     void ApplyLayout()
     {
-        // ① 收集所有真实卡牌（跳过 ghost）
+        // ① 收集真实卡牌
         List<Transform> realCards = new List<Transform>();
-
         for (int i = 0; i < transform.childCount; i++)
         {
             Transform c = transform.GetChild(i);
-
-            // 只有 CardUI 才是实际手牌
             if (c.GetComponent<CardUI>() != null)
                 realCards.Add(c);
         }
 
-        // 没有卡牌就不排
         int count = realCards.Count;
         if (count == 0) return;
 
-        // ② 以真实卡数量为基础计算角度（绝不使用 childCount）
-        float startAngle = -AngleSpread * (count - 1) / 2f;
+        // --- 关键修改 1: 动态计算半径 ---
+        // 根据卡牌数量，在 MinRadius 和 MaxRadius 之间插值
+        // 牌越多，t 越大，radius 越大（越平）
+        float t = Mathf.Clamp01((float)(count - 1) / (MaxCardCountForRadius - 1));
+        float currentRadius = Mathf.Lerp(MinRadius, MaxRadius, t);
 
-        // ③ 按真实卡牌的 index 排布局
+        // --- 关键修改 2: 动态角度挤压 ---
+        float currentSpread = BaseAngleSpread;
+        float expectedTotalAngle = BaseAngleSpread * (count - 1);
+
+        if (expectedTotalAngle > MaxTotalAngle)
+        {
+            // 如果总角度太大，就强制压缩间隔
+            currentSpread = MaxTotalAngle / Mathf.Max(1, count - 1);
+        }
+
+        float startAngle = -currentSpread * (count - 1) / 2f;
+
+        // ③ 排版循环
         for (int i = 0; i < count; i++)
         {
             Transform card = realCards[i];
 
-            // 计算角度
-            float angle = startAngle + AngleSpread * i;
-            float rad = angle * Mathf.Deg2Rad;
+            // 角度计算
+            float angleDeg = startAngle + currentSpread * i;
+            float angleRad = angleDeg * Mathf.Deg2Rad;
 
-            // 根据圆弧计算位置
-            Vector3 pos = new Vector3(
-                Mathf.Sin(rad) * Radius,
-                VerticalOffset,
-                0
-            );
+            // 位置计算
+            // Math: 
+            // X = Sin(a) * R
+            // Y = Cos(a) * R - R (将圆弧顶点归零) + Offset (整体上下移)
 
-            // 设置 UI 位置 & 旋转
-            card.localPosition = pos;
-            card.localRotation = Quaternion.Euler(0, 0, -angle);
+            float x = Mathf.Sin(angleRad) * currentRadius;
+            float y = (Mathf.Cos(angleRad) * currentRadius) - currentRadius + VerticalOffset;
+
+            // 深度 (Optional)
+            float z = -i * 0.1f;
+
+            card.localPosition = new Vector3(x, y, z);
+            card.localRotation = Quaternion.Euler(0, 0, -angleDeg);
+
+            // 确保渲染层级正确
+            card.SetSiblingIndex(i);
         }
     }
 }

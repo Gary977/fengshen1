@@ -26,4 +26,11 @@ public class CardDefinition : ScriptableObject {
 
     public int reducePerHit;
     public int hitCount;
+
+    public int wetTurns;           // For Tide Calling
+    public int weakTurns;          // For Earthen Seal
+    public int vulnerableTurns;    // For Vine Surge or future cards
+
+    public int HpMultiplier;
+
 }

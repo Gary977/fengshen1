@@ -21,6 +21,27 @@ public class BattleHUD : MonoBehaviour
     [Header("Enemy UI")]
     [SerializeField] private TMP_Text enemyHpText;
     [SerializeField] private Image enemyHpFill;
+    // ================================================
+    //  新增：Block 显示
+    // ================================================
+    [Header("Block UI (Optional)")]
+    [SerializeField] private TMP_Text playerBlockText;
+    [SerializeField] private TMP_Text enemyBlockText;
+
+    [SerializeField] private TMP_Text playerEnergyText;
+    [SerializeField] private TMP_Text enemyEnergyText;
+
+    public void UpdatePlayerBlock(int block)
+    {
+        if (playerBlockText != null)
+            playerBlockText.text = block.ToString();
+    }
+
+    public void UpdateEnemyBlock(int block)
+    {
+        if (enemyBlockText != null)
+            enemyBlockText.text = block.ToString();
+    }
 
     private int playerMaxHP = 100;
     private int enemyMaxHP = 100;
@@ -82,4 +103,14 @@ public class BattleHUD : MonoBehaviour
         if (enemyHpFill != null)
             enemyHpFill.fillAmount = (float)currentHP / enemyMaxHP;
     }
+
+    public void UpdateEnergy(int pEnergy, int pMax, int eEnergy, int eMax)
+    {
+        if (playerEnergyText != null)
+            playerEnergyText.text = $"{pEnergy} / {pMax}";
+
+        if (enemyEnergyText != null)
+            enemyEnergyText.text = $"{eEnergy} / {eMax}";
+    }
+
 }

@@ -19,8 +19,7 @@ MonoBehaviour:
   polarity: 1
   cost: 2
   type: 1
-  description: "Gain 10 Block.\r\nIf the enemy\u2019s next intent is Attack, gain
-    +5 extra Block."
+  description: Gain 10 Block.
   baseDamage: 0
   bonusDamage: 0
   elementBonus: 0.25
@@ -31,3 +30,6 @@ MonoBehaviour:
   burnTurns: 0
   reducePerHit: 0
   hitCount: 0
+  wetTurns: 0
+  weakTurns: 0
+  vulnerableTurns: 0

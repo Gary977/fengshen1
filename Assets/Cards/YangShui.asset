@@ -34,3 +34,6 @@ MonoBehaviour:
   burnTurns: 0
   reducePerHit: 0
   hitCount: 0
+  wetTurns: 2
+  weakTurns: 0
+  vulnerableTurns: 0

@@ -49,5 +49,50 @@ public class HandManager : MonoBehaviour
             }
         }
     }
+
+    public void RemoveCard(CardInstance inst)
+    {
+        // 1. 先移除数据
+        bool removed = false;
+
+        if (playerHand.Contains(inst))
+        {
+            playerHand.Remove(inst);
+            removed = true;
+        }
+        else if (enemyHand.Contains(inst))
+        {
+            enemyHand.Remove(inst);
+            removed = true;
+        }
+
+        if (!removed)
+        {
+            Debug.LogWarning("[HandManager] 尝试移除卡牌但未找到实例: " + inst.definition.cardName);
+            return;
+        }
+
+        // 2. 删除对应的 UI（只针对玩家）
+        if (handArea != null)
+        {
+            for (int i = handArea.childCount - 1; i >= 0; i--)
+            {
+                var ui = handArea.GetChild(i).GetComponent<CardUI>();
+                if (ui != null && ui.instance == inst)
+                {
+                    GameObject.Destroy(handArea.GetChild(i).gameObject);
+                }
+            }
+
+            // 3. 刷新手牌布局
+            var layout = handArea.GetComponent<HandCurveLayout>();
+            if (layout != null)
+            {
+                layout.RefreshLayout();
+            }
+        }
+    }
+
+
 }
 

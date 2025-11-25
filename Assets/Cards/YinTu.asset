@@ -20,7 +20,7 @@ MonoBehaviour:
   cost: 2
   type: 1
   description: "Apply Weak (1 turn), reducing enemy attack by 25%.\r\nReduce the
-    target\u2019s gained Block by 5 this turn."
+    target\u2019s Block by 5."
   baseDamage: 0
   bonusDamage: 0
   elementBonus: 0.25
@@ -31,3 +31,6 @@ MonoBehaviour:
   burnTurns: 0
   reducePerHit: 0
   hitCount: 0
+  wetTurns: 0
+  weakTurns: 1
+  vulnerableTurns: 0

@@ -21,7 +21,7 @@ MonoBehaviour:
   type: 0
   description: 'Deal 12 damage.
 
-    If you currently have Block, deal +10 additional
+    If you currently have Block, deal +6 additional
     damage.
 
 '
@@ -35,3 +35,6 @@ MonoBehaviour:
   burnTurns: 0
   reducePerHit: 0
   hitCount: 0
+  wetTurns: 0
+  weakTurns: 0
+  vulnerableTurns: 0

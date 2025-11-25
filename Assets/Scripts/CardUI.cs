@@ -1,4 +1,5 @@
 ﻿using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -80,11 +81,25 @@ public class CardUI : MonoBehaviour,
         visualTargetScale = visualBaseScale * hoverScale;
         visualTargetPos = new Vector3(0, hoverLift, 0);
         transform.SetSiblingIndex(999);
+        // [新增] 呼叫 Tooltip 显示
+        // 假设你的 definition 里有一个叫 description 的 string 字段
+        string desc = instance.definition.description;
 
+        // 传入当前卡牌的位置 (transform.position)
+        if (CardTooltip.Instance != null)
+        {
+            CardTooltip.Instance.ShowTooltip(desc, GetComponent<RectTransform>());
+
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        // [新增] 隐藏
+        if (CardTooltip.Instance != null)
+        {
+            CardTooltip.Instance.HideTooltip();
+        }
         if (!isDrag && !globalDragging)
 
             if (!isDrag)
@@ -98,6 +113,11 @@ public class CardUI : MonoBehaviour,
     // ---------------- DRAG ----------------
     public void OnPointerDown(PointerEventData eventData)
     {
+        // [新增] 开始拖拽时，强制关闭描述框（否则拖着牌还有个框跟着很奇怪）
+        if (CardTooltip.Instance != null)
+        {
+            CardTooltip.Instance.HideTooltip();
+        }
         isDrag = true;
         globalDragging = true;
 
@@ -137,18 +157,16 @@ public class CardUI : MonoBehaviour,
     {
         isDrag = false;
         globalDragging = false;
+
         if (ghost != null)
             Destroy(ghost);
 
         canvasGroup.alpha = 1f;
 
-         // ★ 如果放开时指针在 DropZone → 打出卡
-        if (dropZone != null && dropZone.isPointerInside)
-            {
-            PlayCard();   // 我们下一步创建
-            return;
-            }
-        // hover 放大
+        // 不再手动判断 DropZone
+        // DropZone 会在 OnDrop() 自动处理
+
+        // 恢复 hover 或原位置
         if (isHover)
         {
             visualTargetScale = visualBaseScale * hoverScale;
@@ -160,14 +178,11 @@ public class CardUI : MonoBehaviour,
             visualTargetPos = Vector3.zero;
         }
 
-
         transform.SetParent(originalParent);
         transform.SetSiblingIndex(originalIndex);
-        // ★ 刷新排版
+
         if (handArea != null)
             handArea.GetComponent<HandCurveLayout>().RefreshLayout();
-        else
-            Debug.LogError("CardUI 缺少 handArea 引用！");
     }
 
     public void Init(CardInstance inst)
@@ -179,25 +194,4 @@ public class CardUI : MonoBehaviour,
         cardCost.text = inst.definition.cost.ToString();
         cardPolarity.text = inst.definition.polarity.ToString(); // Yin / Yang
     }
-    private void ReparentKeepWorldPos(RectTransform target, Transform newParent)
-    {
-        Vector3 worldPos = target.position;    // 1. 记录世界坐标
-        target.SetParent(newParent, false);    // 2. 改父物体，但不保留本地坐标
-        target.position = worldPos;            // 3. 恢复世界坐标
-    }
-    private void PlayCard()
-    {
-        Debug.Log("Played card: " + instance.definition.cardName);
-
-        // 1. 从手牌区移除 UI
-        Destroy(gameObject);
-
-        // 2. 从 HandArea 排版
-        if (handArea != null)
-            handArea.GetComponent<HandCurveLayout>().RefreshLayout();
-
-        // 3. 通知战斗系统（下一步实现）
-        // BattleManager.Instance.PlayCard(instance);
-    }
-
 }

@@ -19,17 +19,21 @@ MonoBehaviour:
   polarity: 0
   cost: 2
   type: 2
-  description: 'Restore 10 HP.
+  description: 'Restore 5 HP.
 
     If you have any debuffs, remove one and increase
-    healing by +50%.'
+    healing by +100%.'
   baseDamage: 0
   bonusDamage: 0
   elementBonus: 0.25
-  heal: 10
+  heal: 5
   baseBlock: 0
   conditionalBlock: 0
   burnTick: 0
   burnTurns: 0
   reducePerHit: 0
   hitCount: 0
+  wetTurns: 0
+  weakTurns: 0
+  vulnerableTurns: 0
+  HpMultiplier: 2

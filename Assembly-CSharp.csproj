@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F64A77E3-47BE-E1BE-D341-4040CB283DD3}</ProjectGuid>
+    <ProjectGuid>{4643E51F-4D62-4E3B-BE14-295A00F77038}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,11 +59,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
-    <Analyzer Include="C:\Users\user\封神\Library\PackageCache\com.unity.ai.inference@587873fd5e1b\Runtime\Core\SourceGenerator\SourceGenerators.dll" />
-    <Analyzer Include="C:\Users\user\封神\Library\PackageCache\com.unity.dt.app-ui@7b87c8225c06\Runtime\SourceGenerators\netstandard2.0\EnumToLowerCase.dll" />
+    <Analyzer Include="C:\Users\user\fengshen\Library\PackageCache\com.unity.ai.inference@587873fd5e1b\Runtime\Core\SourceGenerator\SourceGenerators.dll" />
+    <Analyzer Include="C:\Users\user\fengshen\Library\PackageCache\com.unity.dt.app-ui@7b87c8225c06\Runtime\SourceGenerators\netstandard2.0\EnumToLowerCase.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\CardToolTip.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
