@@ -1,0 +1,52 @@
+{
+  "sceneId": "DemoDragonPalace",
+  "slides": [
+    {
+      "bg": "DragonPalaceRuins",
+      "dialogue": [
+        {
+          "speaker": "哪吒",
+          "portrait": "",
+          "text": "前方就是龙宫遗迹，小心点。",
+          "sfx": "",
+          "voice": "",
+          "bgm": ""
+        },
+        {
+          "speaker": "太乙真人",
+          "portrait": "",
+          "text": "嗯？你听到了吗？水声不太对劲……",
+          "sfx": "",
+          "voice": "",
+          "bgm": ""
+        }
+      ],
+      "choices": [
+        {
+          "id": "continue",
+          "text": "继续前进"
+        },
+        {
+          "id": "observe",
+          "text": "停下来观察"
+        }
+      ]
+    },
+    {
+      "bg": "DragonPalaceRuins",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "portrait": "",
+          "text": "你们加速前进，却迎面遇到一股强大的妖气！",
+          "sfx": "",
+          "voice": "",
+          "bgm": ""
+        }
+      ],
+      "choices": []
+    }
+  ]
+}
+
+

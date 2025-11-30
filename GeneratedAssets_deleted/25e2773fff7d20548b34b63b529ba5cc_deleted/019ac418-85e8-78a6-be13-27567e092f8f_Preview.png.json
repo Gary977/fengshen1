@@ -1,0 +1,11 @@
+{
+    "asset": "25e2773fff7d20548b34b63b529ba5cc",
+    "fileName": "019ac418-85e8-78a6-be13-27567e092f8f_Preview.png",
+    "prompt": "Ancient bronze metal with subtle lava textures, featuring delicate engraved divine patterns and talisman-like motifs, suitable for a Chinese myth / Fengshen style game UI panel.",
+    "negativePrompt": "",
+    "model": "44ec3749-963a-44b1-aa54-dc19f6ed8ab2",
+    "modelName": "Unity Texture2D",
+    "customSeed": 824682050,
+    "w3CTraceId": "ee2f3c80edb80e2b63ac427fc8836b19",
+    "refinementMode": "Generation"
+}

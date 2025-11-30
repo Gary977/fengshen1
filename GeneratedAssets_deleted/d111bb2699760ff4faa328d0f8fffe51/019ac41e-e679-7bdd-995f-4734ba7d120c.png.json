@@ -1,0 +1,20 @@
+{
+    "asset": "d111bb2699760ff4faa328d0f8fffe51",
+    "fileName": "019ac41e-e679-7bdd-995f-4734ba7d120c.png",
+    "prompt": "生成一张用于 Unity UI 9-Slice 拉伸的横向长条框，尺寸 1580×300，PNG 透明背景。\r\n边框四周有固定金属纹饰，内部区域为纯暗色。\r\n确保边框厚度统一，中央区域可以拉伸。\r\n不要生成正方形，必须是 1580×300。\r\n",
+    "negativePrompt": "",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "f1931c21bdcf3939b12dc04e2414c2e9",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

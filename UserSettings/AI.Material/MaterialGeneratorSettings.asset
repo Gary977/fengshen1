@@ -15,11 +15,61 @@ MonoBehaviour:
   m_Session:
     settings:
       lastSelectedModels:
-        serializedData: []
+        serializedData:
+        - key: 0
+          value:
+            rid: 7063046755916710535
+        - key: 1
+          value:
+            rid: 7063046755916710536
+        - key: 2
+          value:
+            rid: 7063046755916710537
       lastMaterialMappings:
-        serializedData: []
+        serializedData:
+        - key: Universal Render Pipeline/Lit
+          value:
+            rid: 7063046710714958124
       previewSettings:
         sizeFactor: 1
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 7063046710714958124
+      type: {class: 'SerializableDictionary`2[[Unity.AI.Material.Services.Stores.States.MapType, Unity.AI.Material],[System.String, mscorlib]]', ns: Unity.AI.Generators.Redux.Toolkit, asm: Unity.AI.Generators.Redux}
+      data:
+        serializedData:
+        - key: 1
+          value: _ParallaxMap
+        - key: 2
+          value: _BumpMap
+        - key: 3
+          value: None
+        - key: 4
+          value: None
+        - key: 5
+          value: None
+        - key: 6
+          value: _BaseMap
+        - key: 7
+          value: _OcclusionMap
+        - key: 8
+          value: None
+        - key: 9
+          value: None
+        - key: 10
+          value: _MetallicGlossMap
+        - key: 11
+          value: None
+    - rid: 7063046755916710535
+      type: {class: ModelSelection, ns: Unity.AI.Material.Services.Stores.States, asm: Unity.AI.Material}
+      data:
+        modelID: 44ec3749-963a-44b1-aa54-dc19f6ed8ab2
+    - rid: 7063046755916710536
+      type: {class: ModelSelection, ns: Unity.AI.Material.Services.Stores.States, asm: Unity.AI.Material}
+      data:
+        modelID: 
+    - rid: 7063046755916710537
+      type: {class: ModelSelection, ns: Unity.AI.Material.Services.Stores.States, asm: Unity.AI.Material}
+      data:
+        modelID: 

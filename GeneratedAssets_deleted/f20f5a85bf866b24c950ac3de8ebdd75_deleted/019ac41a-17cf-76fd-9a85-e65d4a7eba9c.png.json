@@ -1,0 +1,20 @@
+{
+    "asset": "f20f5a85bf866b24c950ac3de8ebdd75",
+    "fileName": "019ac41a-17cf-76fd-9a85-e65d4a7eba9c.png",
+    "prompt": "Create a game UI background panel for the Hand Area, size 1580×300 (horizontal long rectangle). \r\nStyle: Chinese myth / Fengshen style, with refined game UI aesthetics. \r\nMaterials should blend ancient bronze metal with subtle lava textures, with delicate engraved divine patterns and talisman-like motifs on the frame. \r\nColor tone: dark, with subtle golden highlights. \r\nCenter area must be clean, slightly darkened, suitable for placing cards.\r\n\r\nRequirements:\r\n- Transparent background (PNG)\r\n- No perspective, no curvature, flat 2D UI panel\r\n- Elements must stay strictly within 1580×300\r\n- Edges clean and crisp\r\n- Resolution must be exactly 1580×300\r\n",
+    "negativePrompt": "",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "b88a38091f4f3db2536c362baee44ad0",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}
